@@ -1,0 +1,80 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: #ff0000;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: linear-gradient(to right, #330000, #660000);
+  padding: 20px;
+  color: #ff0000;
+  font-size: 24px;
+  text-shadow: 0 0 10px #ff0000;
+  border-bottom: 2px solid #ff0000;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #ff0000;
+}
+
+#bars-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 15px;
+  margin: 40px auto;
+  height: 300px;
+  width: 90%;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+#bars-container::-webkit-scrollbar {
+  display: none;
+}
+
+.bar {
+  width: 40px;
+  background: #ff0000;
+  border-radius: 5px 5px 0 0;
+  cursor: grab;
+  transition: all 0.2s ease;
+  box-shadow: 0 0 10px #ff0000;
+}
+
+.bar:active {
+  cursor: grabbing;
+  transform: scale(1.1);
+}
+
+
+#checkBtn {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 0 15px #ff0000;
+}
+
+#checkBtn:hover {
+  background-color: #cc0000;
+}
+
+.instructions {
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #999;
+}
