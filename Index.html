@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bubble Sort Interactive Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>🩸 Bubble Sort Interactive Game 🩸</h1>
+  </div>
+
+  <h2>Drag the Bars to Sort (1 → 9)</h2>
+  
+#You can change the theme whatever you like;)
+  
+  <div id="bars-container">
+  <div class="bar" draggable="true" data-value="1" style="height: 10%"></div>
+  <div class="bar" draggable="true" data-value="6" style="height: 60%"></div>
+  <div class="bar" draggable="true" data-value="3" style="height: 30%"></div>
+  <div class="bar" draggable="true" data-value="8" style="height: 80%"></div>
+  <div class="bar" draggable="true" data-value="2" style="height: 20%"></div>
+  <div class="bar" draggable="true" data-value="7" style="height: 70%"></div>
+  <div class="bar" draggable="true" data-value="9" style="height: 90%"></div>
+  <div class="bar" draggable="true" data-value="4" style="height: 40%"></div>
+  <div class="bar" draggable="true" data-value="5" style="height: 50%"></div>
+</div>
+
+
+  <button id="checkBtn">Check Order</button>
+
+  <div class="instructions">
+    <h3>How to Demonstrate</h3>
+    <p>🧠 Bubble Sort compares <b>two adjacent bars</b>.</p>
+    <p>If the left bar is taller (bigger number), <b>swap them</b> (drag manually).</p>
+    <p>Repeat until all bars are sorted from smallest to tallest (1–9).</p>
+  </div>
+
+  <footer>
+    Presented by Group 1 | Bubble Sort Presentation
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
